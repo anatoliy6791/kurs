@@ -6,6 +6,7 @@ public class Employee {
     int department;
     static int counter;
     int id;
+    int u;
 
     public Employee(String fullName, int salary, int department){
         this.id = counter++;
